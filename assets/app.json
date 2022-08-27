@@ -1,0 +1,11 @@
+{"game" : {
+    "level" : {
+        "startingLevel" : 1
+    },
+    "sound" : {
+        "musicEnabled" : false
+    },
+    "requirements" : {
+        "clientWidth" : 124
+    }
+}}

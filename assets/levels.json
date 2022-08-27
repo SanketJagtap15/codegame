@@ -1,0 +1,1264 @@
+[
+    {
+        "name": "Level 1",
+        "category": "Walking",
+        "subTitle": "Click the <b>blue arrow</b> to insert it in the code panel.<br>Click the <b>Play</b> button to execute the commands.",
+        "validInput": [2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,1],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 2,
+        "goalConfig" : {
+            "position" : [3,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1,  1,  1],
+            [1,  2,  2,  2,  1],
+            [1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, 1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ]
+    },
+    {
+        "name": "Level 2",
+        "category": "Walking",
+        "subTitle": "The Lynx must move 4 steps to get the cone. Can you help him?",
+        "validInput": [2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,1],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 4,
+        "goalConfig" : {
+            "position" : [5,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1,  1,  1,  1,  1],
+            [1,  2,  2,  2,  2,  2,  1],
+            [1,  1,  1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, 1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ]
+    },
+    {
+        "name": "Level 3",
+        "category": "Walking",
+        "subTitle": "Don't go too far! 3 steps is enough!",
+        "validInput": [2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,1],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 4,
+        "goalConfig" : {
+            "position" : [4,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1,  1,  1,  1,  1],
+            [1,  2,  2,  2,  2,  2,  1],
+            [1,  1,  1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, 1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ]
+    },
+    {
+        "name": "Level 4",
+        "category": "Turning",
+        "subTitle": "Now try a left turn!",
+        "validInput": [0,2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,3],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 5,
+        "goalConfig" : {
+            "position" : [3,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [  1,  1,  1,  1,  1],
+            [  1,  1,  1,  2,  1],
+            [  1,  1,  1,  2,  1],
+            [  1,  2,  2,  2,  1],
+            [  1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1, 1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "boardOffset": [0, 0],
+        "zoomLevel": 0.76125
+    },
+{
+        "name": "Level 5",
+        "category": "Turning",
+        "subTitle": "What about a right turn?",
+        "validInput": [1,2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,1],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 5,
+        "goalConfig" : {
+            "position" : [3,3],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1,  1,  1],
+            [1,  2,  2,  2,  1],
+            [1,  1,  1,  2,  1],
+            [1,  1,  1,  2,  1],
+            [1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, 1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ]
+    },
+{
+        "name": "Level 6",
+        "category": "Turning",
+        "subTitle": "Make a U-turn!",
+        "validInput": [0,2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,3],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 8,
+        "goalConfig" : {
+            "position" : [1,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [  1,  1,  1,  1,  1],
+            [  1,  2,  2,  2,  1],
+            [  1,  1,  1,  2,  1],
+            [  1,  2,  2,  2,  1],
+            [  1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "boardOffset": [0, 0],
+        "zoomLevel": 0.76125
+    },{
+        "name": "Level 7",
+        "category": "Turning",
+        "subTitle": "Turn both left and right!",
+        "validInput": [0,1,2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,3],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 8,
+        "goalConfig" : {
+            "position" : [5,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [  1,  1,  1,  1,  1,  1,  1],
+            [  1,  1,  1,  2,  2,  2,  1],
+            [  1,  1,  1,  2,  1,  1,  1],
+            [  1,  2,  2,  2,  1,  1,  1],
+            [  1,  1,  1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "boardOffset": [0, 0],
+        "zoomLevel": 0.76125
+    },{
+        "name": "Level 8",
+        "category": "Turning",
+        "subTitle": "Find the shortest way!",
+        "validInput": [0,1,2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,3],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 7,
+        "goalConfig" : {
+            "position" : [5,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [  1,  1,  1,  1,  1,  1,  1],
+            [  1,  2,  2,  2,  2,  2,  1],
+            [  1,  2,  2,  2,  2,  2,  1],
+            [  1,  2,  2,  2,  2,  2,  1],
+            [  1,  1,  1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "boardOffset": [0, 0],
+        "zoomLevel": 0.76125
+    },{
+        "name": "Level 9",
+        "category": "Turning",
+        "subTitle": "Watch out for the Trees!",
+        "validInput": [0,1,2],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,3],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 9,
+        "goalConfig" : {
+            "position" : [5,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture":"cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [  1,  1,  1,  1,  1,  1,  1],
+            [  1,  2,  2,  2,  2,  2,  1],
+            [  1,  2,  2,  2,  2,  2,  1],
+            [  1,  2,  2,  2,  2,  2,  1],
+            [  1,  1,  1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1, 1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1, 1,-1],
+            [-1,-1,-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1, 1,-1],
+            [-1,-1,-1,-1,-1,-1,-1]
+        ],
+        "boardOffset": [0, 0],
+        "zoomLevel": 0.76125
+    },
+{
+        "name": "Level 10",
+        "category": "Action",
+        "subTitle": "Use the paw to open the chest!",
+        "validInput": [2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,4],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 4,
+        "goalConfig" : {
+            "position" : [1,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chestnokeyneeded",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, -1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ]
+
+    },{
+        "name": "Level 11",
+        "category": "Action",
+        "subTitle": "Use the paw to open the chest!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,4],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 6,
+        "goalConfig" : {
+            "position" : [3,1],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chestnokeyneeded",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [998,998, 1, 1, 1],
+            [998,998, 1, 2, 1],
+            [998,998, 1, 2, 1],
+            [ 1,  1,  1, 2, 1],
+            [ 1,  2,  2, 2, 1],
+            [ 1,  1,  1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1, 1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ]
+
+    },
+{
+        "name": "Level 12",
+        "category": "Action",
+        "subTitle": "Always open the chest from the front!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,4],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 5,
+        "goalConfig" : {
+            "position" : [2,1],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chestnokeyneeded",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,1, 1, 1, 1],
+            [1,2, 2, 2, 1],
+            [1,2, 2, 2, 1],
+            [ 1,  2,  2, 2, 1],
+            [ 1,  2,  2, 2, 1],
+            [ 1,  1,  1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ]
+
+    },
+{
+        "name": "Level 13",
+        "category": "Action",
+        "subTitle": "Find the shortest way to the goal!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,1],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 9,
+        "goalConfig" : {
+            "position" : [1,2],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chestnokeyneeded",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [ 1, 1, 1, 1, 1],
+            [ 1, 2, 2, 2, 1],
+            [ 1, 2, 2, 2, 1],
+            [ 1, 2, 2, 2, 1],
+            [ 1, 2, 2, 2, 1],
+            [ 1, 1, 1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ]
+
+    },
+
+{
+        "name": "Level 14",
+        "category": "Action",
+        "subTitle": "Zickety Zack!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [0,4],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 12,
+        "goalConfig" : {
+            "position" : [3,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture": "chestnokeyneeded",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,1,1,1,1],
+            [1,1,1,2,1],
+            [1,1,2,2,1],
+            [1,2,2,1,1],
+            [2,2,1,1,1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ]
+    },
+    {
+        "name": "Level 15",
+        "category": "Action",
+        "subTitle": "Zackety Zick!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [4,4],
+        "playerStartDirection": 2,
+        "slotsAvailable" : 12,
+        "goalConfig" : {
+            "position" : [1,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture": "chestnokeyneeded",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1, 1, 1, 1, 1],
+            [1, 2, 1, 1, 1],
+            [1, 2, 2, 1, 1],
+            [1, 1, 2, 2, 1],
+            [1, 1, 1, 2, 2]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ]
+    },
+{
+        "name": "Level 16",
+        "category": "Condition",
+        "subTitle": "A key?",
+        "validInput": [2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,4],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 4,
+        "goalConfig" : {
+            "position" : [1,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chest",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, -1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ],
+        "itemBoard" : [
+            [-1, -1, -1],
+            [-1, -1, -1],
+            [-1,  1, -1],
+            [-1, -1, -1],
+            [-1, -1, -1],
+            [-1, -1, -1]
+        ]
+
+    },
+{
+        "name": "Level 17",
+        "category": "Condition",
+        "subTitle": "You need the key!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [2,5],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 11,
+        "goalConfig" : {
+            "position" : [2,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chest",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [998, 1, 1, 1],
+            [ 1, 1, 2, 1],
+            [ 1, 2, 2, 1],
+            [ 1, 1, 2, 1],
+            [998, 1, 2, 1],
+            [998, 1, 2, 1],
+            [998, 1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ],
+        "itemBoard" : [
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1, 1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1],
+            [-1,-1,-1,-1]
+        ]
+
+    },
+{
+        "name": "Level 18",
+        "category": "Condition",
+        "subTitle": "Remember the key!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,5],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 13,
+        "goalConfig" : {
+            "position" : [1,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chest",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [ 1, 1, 1, 1, 1],
+            [ 1, 2, 1, 1, 1],
+            [ 1, 2, 1, 1, 1],
+            [ 1, 2, 2, 2, 1],
+            [ 1, 2, 1, 2, 1],
+            [ 1, 2, 2, 2, 1],
+            [ 1, 1, 1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "itemBoard" : [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1, 1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ]
+
+    },
+{
+        "name": "Level 19",
+        "category": "Condition",
+        "subTitle": "Can you finish in just 11 steps?",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,5],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 11,
+        "goalConfig" : {
+            "position" : [1,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chest",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [ 1, 1, 1, 1, 1],
+            [ 1, 2, 1, 1, 1],
+            [ 1, 2, 1, 1, 1],
+            [ 1, 2, 2, 2, 1],
+            [ 1, 2, 1, 2, 1],
+            [ 1, 2, 2, 2, 1],
+            [ 1, 1, 1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "itemBoard" : [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1, 1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ]
+
+    },
+{
+        "name": "Level 20",
+        "category": "Condition",
+        "subTitle": "Turn around!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,2],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 10,
+        "goalConfig" : {
+            "position" : [1,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chest",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, -1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ],
+        "itemBoard" : [
+            [-1, -1, -1],
+            [-1, -1, -1],
+            [-1, -1, -1],
+            [-1, -1, -1],
+            [-1,  1, -1],
+            [-1, -1, -1]
+        ]
+
+    },
+{
+        "name": "Level 21",
+        "category": "Condition",
+        "subTitle": "The key is behind the trees!",
+        "validInput": [0,1,2,3],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [4,3],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 19,
+        "goalConfig" : {
+            "position" : [6,1],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chest",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1,  1,  1,  1,  1,  1],
+            [1,  2,  2,  2,  2,  1,  2,  1],
+            [1,  1,  1,  1,  2,  2,  2,  1],
+            [1,  1,  1,  1,  2,  2,  2,  1],
+            [1,  1,  1,  1,  1,  1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1, 1,-1,-1,-1],
+            [-1,-1,-1,-1, 1,-1]
+        ],
+        "itemBoard": [
+            [-1,-1,-1,-1,-1,-1,-1,-1],
+            [-1,1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1,-1]
+        ]
+    },
+{
+        "name": "Level 22",
+        "category": "Looping",
+        "subTitle": "Hm, 5 steps to the cone, but only 4 slots available!<br>If only I could do a loop...",
+        "validInput": [2,4],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,1],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 4,
+        "goalConfig" : {
+            "position" : [6,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture": "cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1,  1,  1,  1,  1, 1],
+            [1,  2,  2,  2,  2,  2,  2, 1],
+            [1,  1,  1,  1,  1,  1,  1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1, 1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1,-1,-1]
+        ]
+    },{
+        "name": "Level 23",
+        "category": "Looping",
+        "subTitle": "I must put everything in the loop.",
+        "validInput": [0,1,2,4],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [3,1],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 6,
+        "goalConfig" : {
+            "position" : [1,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture": "cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1, 1, 1, 1, 1],
+            [1, 2, 1, 2, 1],
+            [1, 2, 1, 2, 1],
+            [1, 2, 2, 2, 1],
+            [1, 1, 1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1]
+        ]
+    },
+{
+        "name": "Level 24",
+        "category": "Looping",
+        "subTitle": "I must put everything in the loop.",
+        "validInput": [0,1,2,4],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,1],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 7,
+        "goalConfig" : {
+            "position" : [4,4],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture": "cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1, 1, 1, 998, 998, 998],
+            [1, 2, 1, 1, 998, 998],
+            [1, 2, 2, 1, 1, 998],
+            [1, 1, 2, 2, 1, 1],
+            [998, 1, 1, 2, 2, 1],
+            [998, 998, 1, 1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1]
+        ]
+    },
+{
+        "name": "Level 25",
+        "category": "Looping",
+        "subTitle": "I must put everything in the loop.",
+        "validInput": [0,1,2,4],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [4,4],
+        "playerStartDirection": 0,
+        "slotsAvailable" : 7,
+        "goalConfig" : {
+            "position" : [1,1],
+            "playerCanMoveToPosition": true,
+            "mustInteractToWin": false,
+            "texture": "cone",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1, 1, 1, 1, 1, 1],
+            [1, 2, 2, 2, 2, 1],
+            [1, 2, 2, 2, 2, 1],
+            [1, 2, 2, 2, 2, 1],
+            [1, 2, 2, 2, 2, 1],
+            [1, 1, 1, 1, 1, 1]
+        ],
+        "decorBackground": [
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1],
+            [-1,-1,-1,-1,-1,-1]
+        ]
+    },
+{
+        "name": "Level 26",
+        "category": "Looping",
+        "subTitle": "To add a paw after the loop, the loop must be unactive.<br><b>Tip</b>: click inside the loop to make it unactive/active.",
+        "validInput": [2,3,4],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,6],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 5,
+        "goalConfig" : {
+            "position" : [1,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chestnokeyneeded",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, -1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ]
+
+    },
+{
+        "name": "Level 27",
+        "category": "Looping",
+        "subTitle": "Don't forget the key!<br><b>Remember</b>: click the loop to make it unactive/active.",
+        "validInput": [0,1,2,3,4],
+        "backgroundColor": [200,230,240],
+        "lockMovementToPathTiles": true,
+        "tileWidth": 450,
+        "playerStartTile": [1,1],
+        "playerStartDirection": 3,
+        "slotsAvailable" : 9,
+        "goalConfig" : {
+            "position" : [1,0],
+            "playerCanMoveToPosition": false,
+            "mustInteractToWin": true,
+            "texture":"chest",
+            "playerMustFaceDirectionToInteract": 3,
+            "positionOffset" : [0,0],
+            "scale" : 1.0
+            },
+        "playerScale": 1.0,
+        "board": [
+            [1,  1,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  2,  1],
+            [1,  1,  1]
+        ],
+        "decorBackground": [
+            [-1,-1, -1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ],
+        "decorForeground": [
+            [-1,-1,1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1]
+        ],
+        "itemBoard": [
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1,-1,-1],
+            [-1, 1,-1],
+            [-1,-1,-1]
+        ]
+
+    }
+]
